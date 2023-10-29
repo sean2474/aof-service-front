@@ -1,0 +1,81 @@
+{
+  "students": [
+    {
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "serviceHours": [
+        {
+          "serviceHourId": 1,
+          "hourName": "Beach Cleanup",
+          "hours": 5,
+          "teacherEmail": "teacher1@example.com",
+          "hourType": 1,
+          "status": "Pending"
+        },
+        {
+          "serviceHourId": 2,
+          "hourName": "Tree Planting",
+          "hours": 3,
+          "teacherEmail": "teacher1@example.com",
+          "hourType": 2,
+          "status": "Confirmed"
+        },
+        {
+          "serviceHourId": 3,
+          "hourName": "Tree Planting",
+          "hours": 3,
+          "teacherEmail": "teacher1@example.com",
+          "hourType": 2,
+          "status": "Denied"
+        }
+      ],
+      "totalHours": 8,
+      "memorialPinStatus": "Not Awarded"
+    },
+    {
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "serviceHours": [
+        {
+          "serviceHourId": 4,
+          "hourName": "Park Restoration",
+          "hours": 4,
+          "teacherEmail": "teacher3@example.com",
+          "hourType": 1,
+          "status": "Pending"
+        },
+        {
+          "serviceHourId": 5,
+          "hourName": "Library Assistance",
+          "hours": 2,
+          "teacherEmail": "teacher1@example.com",
+          "hourType": 3,
+          "status": "Pending"
+        }
+      ],
+      "totalHours": 6,
+      "memorialPinStatus": "Not Awarded"
+    },
+    {
+      "name": "Bob Johnson",
+      "email": "bobjohnson@example.com",
+      "serviceHours": [
+        {
+          "serviceHourId": 7,
+          "hourName": "Local Marathon",
+          "hours": 3,
+          "teacherEmail": "teacher2@example.com",
+          "hourType": 2,
+          "status": "Pending"
+        }
+      ],
+      "totalHours": 3,
+      "memorialPinStatus": "Not Awarded"
+    }
+  ],
+  "hourTypes": {
+    "1": "Community Service",
+    "2": "School Activity",
+    "3": "Special Project"
+  }
+}
