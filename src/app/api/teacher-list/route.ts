@@ -1,8 +1,8 @@
 import { getLocalData } from "@/util/json"
-import { NextApiRequest } from "next";
+import { NextRequest } from "next/server";
 import type { TeacherInfo } from "users"
 
-export async function GET(req: NextApiRequest) {
+export async function GET(req: NextRequest) {
   const params = new URLSearchParams(req.url?.split('?')[1]);
   const email = params.get('email');
   // TODO: read from database in the future
