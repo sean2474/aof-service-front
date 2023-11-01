@@ -28,7 +28,7 @@ export default function Home() {
   const [ isLoaded, setIsLoaded ] = useState<boolean>(false);
 
   useEffect(() => {
-    if (session === null) location.href = '/';
+    // if (session === null) location.href = '/';
     if (!session || !session.user) return;
     // if student email but no data, recieve empty data
     // if teacher email, 404 error, message: this user is teacher -> redirect to teacher page

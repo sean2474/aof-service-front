@@ -23,7 +23,7 @@ export default function Home() {
   }
 
   useEffect(() => {
-    if (session === null) location.href = '/';
+    // if (session === null) location.href = '/';
     if (!session || !session.user) return;
     fetch('/api/teacher?' + new URLSearchParams('email='+session.user.email))
     .then(res => res.json())
